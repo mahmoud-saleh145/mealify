@@ -32,7 +32,7 @@
 }
 
 body:has(.dark-mode input:checked) .chefs .chef-info .img-shape::before {
-    background-image: url(./imgs/team-shape-dark.svg);
+    background-image: url(../imgs/team-shape-dark.svg);
 }
 
 body:has(.dark-mode input:checked) .nav-bar .light {
