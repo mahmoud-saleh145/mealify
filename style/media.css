@@ -1,0 +1,385 @@
+@media screen and (max-width:1400px) {
+    .container {
+        max-width: 1100px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .container {
+        max-width: 710px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        max-width: 530px;
+    }
+}
+
+
+
+
+
+/* start media--home */
+
+@media screen and (min-width:1400px) {
+    .home .container {
+        max-width: 1320px;
+    }
+}
+
+
+
+@media screen and (max-width:1400px) {
+    .home .container {
+        max-width: 1140px;
+    }
+}
+
+
+@media screen and (max-width:1200px) {
+    .home .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .home .container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        max-width: 720px;
+        text-align: center;
+
+    }
+
+    .home .container>* {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .home .btn a:nth-of-type(1) {
+
+        border-radius: 20px 20px 20px 20px;
+
+    }
+
+    .home .content {
+        width: 100%;
+
+
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .home .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .home .img img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+    .home .content .btn {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .home .btn a:nth-of-type(1) {
+        margin: 0;
+    }
+
+    .home .content a:nth-of-type(2) {
+        margin-top: 20px;
+
+    }
+}
+
+
+@media screen and (min-width:1200px) {
+    .home .container {
+        height: 100vh;
+    }
+}
+
+/* end media--home */
+
+
+
+
+/* start media--nav */
+
+
+@media screen and (max-width:1200px) {
+    .nav-bar .menu {
+        display: block;
+    }
+
+    .nav-bar .container ul {
+        transform: translatex(100%);
+        position: absolute;
+        top: 0;
+        right: 0;
+        flex-direction: column;
+        background-color: white;
+        height: 100%;
+        gap: 0;
+        width: 350px;
+
+
+    }
+
+    .nav-bar .container ul li {
+        padding-block: 15px;
+        padding-inline: 10px;
+        width: 350px;
+
+    }
+
+    .nav-bar .nav-link .x-icon {
+        display: block;
+    }
+
+    .nav-bar .dark-mode {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+}
+
+
+
+/* end media--nav */
+
+
+
+
+/* start media--chifs */
+
+
+
+@media screen and (max-width:1200px) {
+    .chefs .chef-info .img-shape::before {
+        bottom: -17px;
+
+    }
+
+
+}
+
+@media screen and (max-width:992px) {
+    .chefs .img {
+        width: calc(calc(100% - var(--gap)) /2);
+    }
+
+    .chefs .chef-info .img-shape::before {
+        bottom: -7px;
+
+    }
+
+}
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .chefs .img {
+        width: 100%;
+    }
+
+    .chefs .container {
+
+        padding-bottom: 50px;
+    }
+
+
+
+
+}
+
+
+/* end media--chifs */
+
+
+
+/* start media--gallery */
+
+
+
+@media screen and (max-width:1400px) {
+
+
+    .gallery .food-imgs {
+        height: 985px;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+
+
+    .gallery .food-imgs {
+        height: 875px;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+
+
+    .gallery .food-imgs {
+        height: 1443px;
+
+    }
+
+    .gallery figure {
+        width: calc(calc(100% - var(--gap)) / 2);
+
+    }
+
+
+    .gallery .food-imgs .pizza {
+        order: 0;
+    }
+
+    .gallery .food-imgs .burger {
+        order: 1;
+    }
+
+    .gallery .food-imgs .slice-pizza {
+        order: 2;
+    }
+
+    .gallery .food-imgs .frittata {
+        order: 3;
+    }
+
+    .gallery .food-imgs .steak {
+        order: 4;
+    }
+
+    .gallery .food-imgs .fried {
+        order: 5;
+    }
+
+    .gallery .food-imgs .kebab {
+        order: 6;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .gallery .food-imgs {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .gallery figure {
+        width: 100%;
+
+    }
+
+    .gallery .container {
+        padding-top: 50px;
+    }
+}
+
+/* end media--gallery */
+
+
+
+
+/* start media--contact */
+@media screen and (max-width:768px) {
+    .contact .information {
+        flex-direction: column;
+
+    }
+
+    .contact .our-info {
+        width: 100%;
+    }
+
+    .contact .input-group input {
+        width: 100%;
+    }
+
+}
+
+/* end media--contact */
+
+
+
+
+/* start media--footer */
+
+@media screen and (max-width:1200px) {
+    .final-section .container {
+        flex-wrap: wrap;
+    }
+
+    .final-section .social-media {
+        order: -1;
+        width: calc(calc(100% - var(--gap)*2)/ 2);
+        /* margin-bottom: 30px; */
+    }
+
+    .subscribtion {
+        order: 1;
+        width: 100%;
+    }
+
+    .get-in-touch {
+        width: calc(calc(100% - var(--gap)*2)/ 2);
+        order: 0;
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+    .final-section .container {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .final-section .social-media {
+        order: -1;
+        width: 100%;
+    }
+
+    .final-section .subscribtion {
+        order: 0;
+        width: 100%;
+    }
+
+    .final-section .get-in-touch {
+        width: 100%;
+        order: 1;
+    }
+
+    .final-section .icons i {
+
+        padding: 0 40px;
+
+    }
+}
+
+/* end media--footer */

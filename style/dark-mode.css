@@ -1,0 +1,50 @@
+:root:has(.dark-mode input:checked) {
+
+    --box-shadow-color: rgba(0, 0, 0, 0.1);
+
+    --scroll-background-color: #926321;
+
+    --main-background-color: #252525;
+
+    --second-background-color: #171717;
+
+    --third-background-color: #202020;
+
+    --fourth-background-color: #0D0D0D;
+
+    --main-color: #D78C23;
+
+    --second-color: #E61414;
+
+    --third-color: white;
+
+    --fourth-color: #9F9F9F;
+
+    --fifth-color: #ADADAD;
+
+    --info-color: #F5F5F5;
+
+    --paragraph-color: #9F9F9F;
+
+    --white-color: black;
+
+    --black-color: white;
+}
+
+body:has(.dark-mode input:checked) .chefs .chef-info .img-shape::before {
+    background-image: url(./imgs/team-shape-dark.svg);
+}
+
+body:has(.dark-mode input:checked) .nav-bar .light {
+    display: block;
+    background-color: #171717;
+}
+
+body:has(.dark-mode input:checked) .nav-bar .dark {
+    display: none;
+}
+
+body:has(.nav-link:target) .nav-bar {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
